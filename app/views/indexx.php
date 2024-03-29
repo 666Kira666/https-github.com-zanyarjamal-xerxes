@@ -152,6 +152,12 @@
    
 	
 	<section id="features" class="feature-wrapper">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
     	<div class="container">
 		<div data-scroll-reveal="enter from the bottom after 0.3s" class="title text-center" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
                         <h2>Religiões de Matriz Africana</h2>
@@ -422,87 +428,9 @@
             </div><!-- end title -->
 
                  
-            <div class="text-center clearfix">
-                <nav class="portfolio-filter">
-                <h4>CONHEÇA MAIS ALGUMAS RELIGÕES DE MATRIZES AFRICANAS </h4>
-                    <ul>
-                        <li><a class="btn btn-primary" href="#" data-filter="*"><span></span>All</a></li>
-                        <li><a class="btn btn-primary" href="#" data-filter=".photography">Photography</a></li>
-                        <li><a class="btn btn-primary" href="#" data-filter=".app-design">App Design</a></li>
-                        <li><a class="btn btn-primary" href="#" data-filter=".logo">Logo</a></li>
-                    </ul>
-                </nav>
-            </div>
-                 
-				<div class="norow">
-					<div class="masonry_wrapper" data-scroll-reveal="enter from the bottom after 0.5s">
-                        <div class="item entry item-h2 photography print">
-                        	<img src="<?=assets('template/demos/work_01.jpg')?>" alt="" class="img-responsive">
-                            <div class="hovereffect">
-                                <a data-gal="prettyPhoto[product-gallery]" rel="bookmark" href="demos/work_01.jpg"><span class="icon"><i class="fa fa-plus"></i></span></a>
-                                <div class="buttons">
-                                    <h4>Portfolio Work</h4>
-                                    <h5>WEB DESIGN, LOGO, PRINT, VIDEO</h5>
-                                </div><!-- end buttons -->
-                            </div><!-- end hovereffect -->
-                        </div>
-                        
-                        <div class="item entry item-h2 webdesign print">
-                        	<img src="<?=assets('template/demos/work_02.jpg')?>" alt="" class="img-responsive">
-                            <div class="hovereffect">
-                                <a data-gal="prettyPhoto[product-gallery]" rel="bookmark" href="demos/work_02.jpg"><span class="icon"><i class="fa fa-plus"></i></span></a>
-                                <div class="buttons">
-                                    <h4>Portfolio Work</h4>
-                                    <h5>WEB DESIGN, LOGO, PRINT, VIDEO</h5>
-                                </div><!-- end buttons -->
-                            </div><!-- end hovereffect -->
-                        </div>
-                        
-                        <div class="item entry item-h2 videos print">
-                        	<img src="<?=assets('template/demos/work_03.jpg')?>" alt="" class="img-responsive">
-                            <div class="hovereffect">
-                                <a data-gal="prettyPhoto[product-gallery]" rel="bookmark" href="demos/work_03.jpg"><span class="icon"><i class="fa fa-plus"></i></span></a>
-                                <div class="buttons">
-                                    <h4>Portfolio Work</h4>
-                                    <h5>WEB DESIGN, LOGO, PRINT, VIDEO</h5>
-                                </div><!-- end buttons -->
-                            </div><!-- end hovereffect -->
-                        </div>
-                        
-                        <div class="item entry item-h2 photography">
-                        	<img src="template/demos/work_04.jpg" alt="" class="img-responsive">
-                            <div class="hovereffect">
-                                <a data-gal="prettyPhoto[product-gallery]" rel="bookmark" href="demos/work_04.jpg"><span class="icon"><i class="fa fa-plus"></i></span></a>
-                                <div class="buttons">
-                                    <h4>Portfolio Work</h4>
-                                    <h5>WEB DESIGN, LOGO, PRINT, VIDEO</h5>
-                                </div><!-- end buttons -->
-                            </div><!-- end hovereffect -->
-                        </div>
-                        
-                        <div class="item entry item-h2 videos">
-                        	<img src="template/demos/work_05.jpg" alt="" class="img-responsive">
-                            <div class="hovereffect">
-                                <a data-gal="prettyPhoto[product-gallery]" rel="bookmark" href="demos/work_05.jpg"><span class="icon"><i class="fa fa-plus"></i></span></a>
-                                <div class="buttons">
-                                    <h4>Portfolio Work</h4>
-                                    <h5>WEB DESIGN, LOGO, PRINT, VIDEO</h5>
-                                </div><!-- end buttons -->
-                            </div><!-- end hovereffect -->
-                        </div>
 
-                        <div class="item entry item-h2 webdesign">
-                        	<img src="demos/work_06.jpg" alt="" class="img-responsive">
-                            <div class="hovereffect">
-                                <a data-gal="prettyPhoto[product-gallery]" rel="bookmark" href="demos/work_06.jpg"><span class="icon"><i class="fa fa-plus"></i></span></a>
-                                <div class="buttons">
-                                    <h4>Portfolio Work</h4>
-                                    <h5>WEB DESIGN, LOGO, PRINT, VIDEO</h5>
-                                </div><!-- end buttons -->
-                            </div><!-- end hovereffect -->
-                        </div>
-                                              
-				</div><!-- end portfolio-masonry -->
+                 
+				
 			</div><!-- end row -->      
         </div> <!-- end Container-->      
     </section><!-- end work -->
@@ -521,48 +449,7 @@
       
     <!--/ CONTACT AND MAP SECTION -->  
    <section id="contact" class="contact-wrapper">
-        <div class="title text-center">
-                <h2>Nosso Contato</h2>
-                <p>ETIAM DIGNISSIM LEO VESTIBULUM VOLUTPAT MORB</p>
-                <hr>
-        </div><!-- end title -->
-        <div class="contact_tab text-center">
-                    <ul id="myTab" class="container text-center nav nav-tabs" role="tablist">
-                        <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Contact Details</a></li>
-                        <li><a href="#tab2" role="tab" data-toggle="tab">Location Maps</a></li>
-                    </ul>
-           <div id="myTabContent" class="tab-content">
-                    <div class="tab-pane fade in active" id="tab1">
-                        <div class="container">
-                        <p>Eget pede fringilla rutrum. Fusce eget tortor vel magna iaculis convallis. Mauris molestie magna. Mauris  Integer eget arcu. asiscing eleifend dui. Nullam lectus neque, 					                       blandit quis, mattis quis, varius eros. Proin porta pellentesque ante.Fusce In sagittis eros aliquam quis purus nunc ut turpis sed </p>
-                        	<div id="message"></div>
-                            <form id="contactform" action="contact.php" name="contactform" method="post" data-scroll-reveal="enter from the bottom after 0.4s">
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Address"> 
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" value="SEND" id="submit" class="btn btn-lg btn-contact btn-primary">SUBMIT</button>
-                                </div>
-                            </form> <!-- End Form -->
-                        </div> <!-- End Container -->
-                    </div><!-- End Tab Pane -->
-            
-                            <!-- /Google Map -->     
-                  <div class="tab-pane fade" id="tab2">
-                   <div id="map"></div>
-                  </div>   
-            </div><!-- /end my tab content -->  
-        </div><!-- /contact_tab -->  
+        
     
         <div class="container">
             <div class="title text-center">

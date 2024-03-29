@@ -1,6 +1,15 @@
 <?php include 'admcoment-menu.php' ?>
 
-
+<br>
+<br>
+<!-- Contact Section Heading-->
+<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Comentários</h2>
+<!-- Icon Divider-->
+<div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+    <div class="divider-custom-line"></div>
+</div>
 
 <form method='POST' action='<?=route('usrcoment/salvar/'._v($data,"id"))?>'>
 
@@ -18,11 +27,11 @@
 <table class='table'>
 
     <tr>
-        <th class="text-light">Editar</th>
-        <th class="text-light">Nome</th>
-        <th class="text-light">comentario</th>
-        <th class="text-light">identificador</th>
-        <th class="text-light">Deletar</th>
+        <th class="text-secondary">Editar</th>
+        <th class="text-secondary">Nome</th>
+        <th class="text-secondary">comentario</th>
+        <th class="text-secondary">identificador</th>
+        <th class="text-secondary">Deletar</th>
     </tr>
 
     <?php foreach($lista as $item): ?>
@@ -31,9 +40,9 @@
             <td>
                 <a href='<?=route("usrcoment/index/{$item['id']}")?>'>Editar</a>
             </td>
-            <td class="text-light"><?=$item['nome']?></td>
-            <td class="text-light"><?=$item['texto']?></td>
-            <td class="text-light"><?=$item['id']?></td>
+            <td class="text-secondary"><?=$item['nome']?></td>
+            <td class="text-secondary"><?=$item['texto']?></td>
+            <td class="text-secondary"><?=$item['id']?></td>
 
             <td>
                 <a href='<?=route("usrcoment/deletar/{$item['id']}")?>'>Deletar</a>

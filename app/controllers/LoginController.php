@@ -22,7 +22,7 @@ class LoginController {
 
 		#proibe o usuário de entrar caso não tenha autorização
 		if ($_SESSION['user']['tipo'] < Usrlog::ADMIN_USER){
-			redirect("/rpp/comentarios");
+			redirect("usrcoment");
 			die();
 		}
 

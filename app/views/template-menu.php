@@ -60,14 +60,10 @@
                     </div><!-- end navbar-header -->
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a data-scroll href="#home" class="int-collapse-menu">Home</a></li>
-                        <li><a data-scroll href="#features" class="int-collapse-menu">Por Que Nós ?</a></li>
-                        <li><a data-scroll href="#about" class="int-collapse-menu">Sobre</a></li>
-                        <li><a data-scroll href="#pricing" class="int-collapse-menu">Pricing</a></li>
-                        <li><a data-scroll href="#team" class="int-collapse-menu">Team</a></li>
-                        <li><a data-scroll href="#works" class="int-collapse-menu">Portfólio</a></li>
-						<li><a data-scroll href="#contact" class="int-collapse-menu">Contato</a></li>
-                        <li><a href="blog.html">Comentários</a></li>
+                        <li class="active"><a data-scroll href="<?=route("indexx")?>" class="int-collapse-menu">Matrizes Africanas</a></li>
+                        <li><a data-scroll href="<?=route("indexy")?>" class="int-collapse-menu">Cunho Evangélico</a></li>
+                        <li><a data-scroll href="<?=route("autenticacao")?>" class="int-collapse-menu">Autenticação</a></li>
+                       
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div><!--/.container-fluid -->

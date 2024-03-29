@@ -1,9 +1,18 @@
 <?php include 'admcoment-menu.php' ?>
 
 
-Resposta
 <br>
+<br>
+<!-- Contact Section Heading-->
+<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Resposta</h2>
+<!-- Icon Divider-->
+<div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+    <div class="divider-custom-line"></div>
+</div>
 
+Resposta (Conteúdo)
 <form method='POST' action='<?=route('resposta/salvar/'._v($data,"id"))?>'>
 
 <label class='col-md-2'>
@@ -27,13 +36,13 @@ Resposta ao Comentário N°
 <table class='table'>
 
     <tr>
-        <th class="text-light">Editar</th>
-        <th class="text-light">Nome</th>
-        <th class="text-light">Resposta</th>
-        <th class="text-light">Resposta ao Comentário N°</th>
+        <th class="text-secondary">Editar</th>
+        <th class="text-secondary">Nome</th>
+        <th class="text-secondary">Resposta</th>
+        <th class="text-secondary">Resposta ao Comentário N°</th>
 
 
-        <th class="text-light">Deletar</th>
+        <th class="text-secondary">Deletar</th>
     </tr>
 
     <?php foreach($lista as $item): ?>
@@ -42,9 +51,9 @@ Resposta ao Comentário N°
             <td>
                 <a href='<?=route("resposta/index/{$item['id']}")?>'>Editar</a>
             </td>
-            <td class="text-light"><?=$item['nome']?></td>
-            <td class="text-light"><?=$item['resposta']?></td>
-            <td class="text-light"><?=$item['comentario_id']?></td>
+            <td class="text-secondary"><?=$item['nome']?></td>
+            <td class="text-secondary"><?=$item['resposta']?></td>
+            <td class="text-secondary"><?=$item['comentario_id']?></td>
 
 
             <td>

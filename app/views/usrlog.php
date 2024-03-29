@@ -4,6 +4,15 @@
 
 <form method='POST' action='<?=route('usrlog/salvar/'._v($data,"id"))?>'>
 
+<!-- Contact Section Heading-->
+<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cadastro</h2>
+<!-- Icon Divider-->
+<div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+    <div class="divider-custom-line"></div>
+</div>
+
 <label class='col-md-6'>
     Nome
     <input type="text" class="form-control <?=hasError("nome","is-invalid")?>" name="nome" value="<?=old("nome", _v($data,"nome"))?>" >
@@ -51,9 +60,10 @@ E-mail
     <tr>
         <th>Editar</th>
         <th>Nome</th>
-        <th>Data de nascimento</th>
         <th>E-mail</th>
         <th>Tipo</th>
+        <th></th>
+
         <th>Senha</th>
         <th>Deletar</th>
     </tr>
@@ -64,11 +74,11 @@ E-mail
             <td>
                 <a href='<?=route("usrlog/index/{$item['id']}")?>'>Editar</a>
             </td>
-            <td class="text-light"><?=$item['nome']?></td>
-            <td class="text-light"><?=$item['email']?></td>
-            <td class="text-light"><?=$item['tipo']?></td>
-            <td class="text-light"><?=$item['dataNascimento']?></td>
-            <td class="text-light"><?=$item['senha']?></td>
+            <td class="text-secondary"><?=$item['nome']?></td>
+            <td class="text-secondary"><?=$item['email']?></td>
+            <td class="text-secondary"><?=$item['tipo']?></td>
+            <td class="text-secondary"><?=$item['dataNascimento']?></td>
+            <td class="text-secondary"><?=$item['senha']?></td>
             <td>
                 <a href='<?=route("usrlog/deletar/{$item['id']}")?>'>Deletar</a>
             </td>
